@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.badge {
+    @apply bg-blue-500;
+    @apply border-none;
+}
+
+.btn {
+    @apply min-h-[2rem];
+    @apply h-[2rem];
+    
+}
